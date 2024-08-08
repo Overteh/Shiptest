@@ -5,4 +5,6 @@
 
 #include "code/jellypeople.dm"
 
+#include "code/robot_bodyparts.dm"
+
 #endif

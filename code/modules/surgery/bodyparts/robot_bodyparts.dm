@@ -380,7 +380,10 @@
 	overlay_icon_state = TRUE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC
 
-/obj/item/bodypart/leg/left/robot/lizard
+// [CELADON-EDIT] - CELADON_SPECIES_CHANGES
+///obj/item/bodypart/leg/left/robot/lizard // CELADON-EDIT - ORIGINAL
+/obj/item/bodypart/leg/right/robot/lizard
+// [/CELADON-EDIT]
 	name = "prosthetic lizard right leg"
 	icon = 'icons/mob/augmentation/augments_lizard.dmi'
 	should_draw_greyscale = TRUE

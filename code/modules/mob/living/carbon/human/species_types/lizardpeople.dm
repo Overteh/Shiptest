@@ -38,11 +38,16 @@
 
 	species_robotic_chest = /obj/item/bodypart/chest/robot/lizard
 	species_robotic_head = /obj/item/bodypart/head/robot/lizard
-	species_robotic_l_arm = /obj/item/bodypart/l_arm/robot/surplus/lizard
-	species_robotic_r_arm = /obj/item/bodypart/r_arm/robot/surplus/lizard
-	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus/lizard
-	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus/lizard
-
+	// [CELADON-EDIT] - CELADON_SPECIES_CHANGES
+	//species_robotic_l_arm = /obj/item/bodypart/l_arm/robot/surplus/lizard
+	//species_robotic_r_arm = /obj/item/bodypart/r_arm/robot/surplus/lizard
+	//species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus/lizard
+	//species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus/lizard // CELADON-EDIT - ORIGINAL
+	species_robotic_l_arm = /obj/item/bodypart/l_arm/robot/lizard
+	species_robotic_r_arm = /obj/item/bodypart/r_arm/robot/lizard
+	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/lizard
+	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/lizard
+	// [/CELADON-EDIT]
 	robotic_eyes = /obj/item/organ/eyes/robotic/lizard
 
 	// Lizards are coldblooded and can stand a greater temperature range than humans
