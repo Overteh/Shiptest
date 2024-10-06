@@ -51,10 +51,10 @@
 /obj/structure/closet/crate/secure/weapon{
 	req_access_txt = "1"
 	},
-/obj/item/kitchen/knife/combat/survival,
-/obj/item/kitchen/knife/combat/survival,
-/obj/item/kitchen/knife/combat/survival,
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
+/obj/item/melee/knife/survival,
+/obj/item/melee/knife/survival,
+/obj/item/melee/knife/survival,
 /obj/machinery/syndicatebomb/training,
 /mob/living/simple_animal/bot/secbot/beepsky/jr,
 /turf/open/floor/plasteel/white,
@@ -582,9 +582,7 @@
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/item/stack/sheet/mineral/diamond/twenty,
-/obj/item/stack/sheet/mineral/diamond/twenty,
-/obj/item/stack/sheet/mineral/diamond/twenty,
+/obj/item/stack/sheet/mineral/plasma/twenty,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "hh" = (
@@ -805,7 +803,9 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "jp" = (
-/obj/machinery/vending/medical,
+/obj/machinery/vending/medical{
+	all_items_free = 1
+	},
 /obj/effect/turf_decal/trimline/opaque/bottlegreen/line{
 	dir = 6
 	},
@@ -1332,7 +1332,7 @@
 /obj/item/radio{
 	icon_state = "sec_radio"
 	},
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/glasses/hud/security/sunglasses,
 /obj/item/clothing/suit/armor/vest/bulletproof,
 /obj/item/storage/belt/military,
@@ -1758,9 +1758,10 @@
 	dir = 9
 	},
 /obj/machinery/power/terminal,
-/obj/machinery/power/port_gen/pacman/mrs,
-/obj/item/stack/sheet/mineral/diamond/twenty,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1
+	},
 /turf/open/floor/plating,
 /area/ship/engineering)
 "tp" = (
@@ -1962,7 +1963,7 @@
 /obj/item/radio{
 	icon_state = "sec_radio"
 	},
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/glasses/hud/security/sunglasses,
 /obj/item/clothing/suit/armor/vest/bulletproof,
 /obj/item/storage/belt/military,
@@ -2202,12 +2203,13 @@
 "xU" = (
 /obj/item/radio/intercom/directional/west,
 /obj/structure/dresser,
-/obj/item/reagent_containers/food/snacks/cakeslice/brain{
-	pixel_y = 9
-	},
 /obj/item/candle/infinite{
 	pixel_y = 17;
 	pixel_x = -1
+	},
+/obj/item/food/cakeslice/brain{
+	pixel_x = 0;
+	pixel_y = 9
 	},
 /turf/open/floor/carpet/royalblack,
 /area/ship/crew/dorm/dormtwo)
@@ -3075,7 +3077,7 @@
 /obj/item/radio{
 	icon_state = "sec_radio"
 	},
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/glasses/hud/security/sunglasses,
 /obj/item/clothing/suit/armor/vest/bulletproof,
 /obj/item/storage/belt/military,
@@ -3790,7 +3792,7 @@
 /obj/item/radio{
 	icon_state = "sec_radio"
 	},
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/glasses/hud/security/sunglasses,
 /obj/item/clothing/suit/armor/vest/bulletproof,
 /obj/item/storage/belt/military,
@@ -4637,12 +4639,12 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/obj/item/reagent_containers/food/snacks/cakeslice/birthday{
-	pixel_y = -5;
-	pixel_x = -8
-	},
 /obj/structure/sign/poster/official/get_your_legs{
 	pixel_x = 32
+	},
+/obj/item/food/cakeslice/birthday{
+	pixel_x = -8;
+	pixel_y = -5
 	},
 /turf/open/floor/wood,
 /area/ship/hallway/central)

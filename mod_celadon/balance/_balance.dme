@@ -13,9 +13,14 @@
 #include "code/e_tarsmg.dm"
 
 #include "code/elite.dm"
+#include "code/items.dm"
 #include "code/simple_animal.dm"
+#include "code/structures.dm"
 #include "code/gun.dm"
 #include "code/ionrifle.dm"
+#include "code/vending.dm"
+#include "code/gloves.dm"
+#include "code/hardsuit.dm"
 
 #include "../cargo_items/_cargo_items.dme"
 

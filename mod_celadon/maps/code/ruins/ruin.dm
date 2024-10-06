@@ -417,6 +417,12 @@
 	id = "rockplanet_saloon"
 	suffix = "rockplanet_saloon.dmm"
 
+/datum/map_template/ruin/rockplanet/distillery
+	name = "Frontiersman Distillery"
+	description = "A former pre-ICW era Nanotrasen outpost converted into a moonshine distillery by Frontiersman bootleggers."
+	id = "rockplanet_distillery"
+	suffix = "rockplanet_distillery.dmm"
+
 //							///
 //		Space ruin			///
 //							///
@@ -463,7 +469,6 @@
 	suffix = "spacemall.dmm"
 	name = "Space Mall"
 	description = "An old shopping centre, owned by a former member of Nanotrasen's board of directors.."
-
 
 /datum/map_template/ruin/space/excavator_DK
 	id = "Excavator-DK"
@@ -545,6 +550,13 @@
 	name = "Syndicate Battle Sphere"
 	description = "The Syndicate Battle Sphere, complete with guns!"
 
+/datum/map_template/ruin/space/oldstation
+	id = "oldstation"
+	suffix = "oldstation.dmm"
+	name = "Old Station"
+	description = "The old destroyed network of stations Alpha, Beta, Charlie, Tetta"
+	allow_duplicates = FALSE
+
 //							///
 //		WastePlanet ruin	///
 //							///
@@ -601,6 +613,12 @@
 	description = "A crashed part of some unlucky ship."
 	id = "crash_kitchen"
 	suffix = "wasteplanet_crash_kitchen.dmm"
+
+/datum/map_template/ruin/wasteplanet/crahsed_abductor_ship
+	name = "Crashed Abductor Ship"
+	description = "A crashed abductor ship with something horrible goi'n inside."
+	id = "crash_abductor_ship"
+	suffix = "wasteplanet_ruined_abductor_ship.dmm"
 
 //							///
 //		Whitesand ruin		///
@@ -667,3 +685,30 @@
 	id = "ws-drugstore"
 	description = "A store that once sold a variety of items and equipment."
 	suffix = "whitesands_surface_camp_drugstore.dmm"
+
+//							///
+//		Plasma	 ruin		///
+//							///
+
+/datum/map_template/ruin/plasma_gaint/oldminer
+	name = "oldminer"
+	id = "ps-oldminer"
+	description = "The base of an old and experienced miner"
+	suffix = "oldminer.dmm"
+
+/datum/map_template/ruin/plasma_gaint/dragon
+	name = "dragon"
+	id = "ps-dragon"
+	description = "An ancient and terrible dragon that lived for several centuries and ate hundreds of souls."
+	suffix = "dragon.dmm"
+	allow_duplicates = FALSE
+
+//							///
+//		EarthSand ruin		///
+//							///
+
+/datum/map_template/ruin/earth_sand/el_town
+	name = "eltown"
+	id = "el_town"
+	description = "Town of Elysium"
+	suffix = "el_town.dmm"

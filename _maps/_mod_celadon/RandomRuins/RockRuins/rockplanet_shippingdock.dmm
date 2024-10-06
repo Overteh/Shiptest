@@ -2000,9 +2000,9 @@
 /obj/structure/closet/crate/secure/gear{
 	req_one_access_txt = "53"
 	},
-/obj/item/ammo_box/magazine/tec9,
-/obj/item/ammo_box/magazine/tec9,
-/obj/item/gun/ballistic/automatic/pistol/tec9,
+/obj/item/ammo_box/magazine/m9mm_rattlesnake,
+/obj/item/ammo_box/magazine/m9mm_rattlesnake,
+/obj/item/storage/pistolcase/ringneck,
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/rockplanet/shippingdocksecure)
 "rK" = (
@@ -2176,8 +2176,14 @@
 /area/ruin/rockplanet/shippingdocksecure)
 "sO" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/snacks/donut/choco,
+/obj/item/reagent_containers/food/snacks/donut/choco{
+	pixel_x = -15;
+	pixel_y = 6
+	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/toy/prize/marauder{
+	pixel_y = 10
+	},
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/rockplanet/shippingdockoffice)
 "sP" = (
@@ -2417,7 +2423,6 @@
 /obj/item/toy/plush/moth/firewatch,
 /obj/item/toy/plush/lizardplushie,
 /obj/item/toy/plush/knight,
-/obj/item/toy/prize/mauler,
 /obj/item/toy/talking/AI,
 /turf/open/floor/plasteel/mono/white,
 /area/ruin/rockplanet/shippingdockwarehouse)

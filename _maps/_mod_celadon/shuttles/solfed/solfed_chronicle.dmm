@@ -267,7 +267,7 @@
 /obj/item/door_remote/captain,
 /obj/item/storage/belt/sabre/solgov,
 /obj/item/clothing/under/solgov/dress,
-/obj/item/clothing/suit/armor/vest/bulletproof/solgov/captain,
+/obj/item/clothing/suit/armor/vest/solgov/captain,
 /obj/item/stamp/solgov,
 /obj/item/clothing/suit/armor/solgov_trenchcoat,
 /obj/item/spacecash/bundle/loadsamoney,
@@ -570,7 +570,7 @@
 /obj/item/clothing/suit/hazardvest/solgov,
 /obj/item/clothing/accessory/armband/cargo,
 /obj/item/clothing/shoes/workboots,
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/gloves/combat,
 /obj/item/storage/backpack,
 /obj/machinery/light/small/directional/north,
@@ -956,7 +956,7 @@
 /obj/item/clothing/gloves/combat,
 /obj/item/radio/headset/solgov/alt,
 /obj/item/storage/backpack,
-/obj/item/clothing/suit/armor/vest/bulletproof/solgov,
+/obj/item/clothing/suit/armor/vest/solgov,
 /obj/effect/turf_decal/techfloor{
 	dir = 1
 	},
@@ -4108,7 +4108,7 @@
 /area/ship/crew/office)
 "OU" = (
 /obj/item/clothing/neck/cloak/overseer,
-/obj/item/clothing/suit/armor/vest/bulletproof/solgov/overseer,
+/obj/item/clothing/suit/armor/vest/solgov/overseer,
 /obj/structure/closet/secure_closet/head_of_personnel{
 	anchored = 1;
 	name = "\proper overseer's locker";
@@ -4436,7 +4436,7 @@
 "RX" = (
 /obj/structure/table/wood,
 /obj/item/cutting_board,
-/obj/item/kitchen/knife,
+/obj/item/melee/knife/kitchen,
 /obj/machinery/newscaster/directional/north,
 /obj/structure/sink{
 	pixel_y = 20;

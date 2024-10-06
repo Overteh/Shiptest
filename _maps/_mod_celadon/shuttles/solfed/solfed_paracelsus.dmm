@@ -731,10 +731,6 @@
 /area/ship/hallway/starboard)
 "hh" = (
 /obj/structure/closet/crate,
-/obj/item/reagent_containers/food/snacks/store/bread/plain,
-/obj/item/reagent_containers/food/snacks/store/bread/plain,
-/obj/item/reagent_containers/food/snacks/store/bread/plain,
-/obj/item/reagent_containers/food/snacks/store/bread/plain,
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
@@ -744,6 +740,10 @@
 	},
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/machinery/light/directional/east,
+/obj/item/food/bread/plain,
+/obj/item/food/bread/plain,
+/obj/item/food/bread/plain,
+/obj/item/food/bread/plain,
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo/office)
 "hA" = (
@@ -806,7 +806,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 4
 	},
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/gloves/combat,
 /obj/item/clothing/suit/hazardvest/solgov,
 /obj/item/clothing/head/hardhat/solgov,
@@ -1655,7 +1655,7 @@
 /obj/effect/turf_decal/siding/yellow{
 	dir = 4
 	},
-/obj/item/kitchen/knife/combat/survival,
+/obj/item/melee/knife/survival,
 /obj/item/clothing/gloves/combat,
 /obj/item/clothing/suit/hazardvest/solgov,
 /obj/item/clothing/head/hardhat/solgov,
@@ -2466,7 +2466,7 @@
 /area/ship/bridge)
 "ye" = (
 /obj/item/clothing/neck/cloak/overseer,
-/obj/item/clothing/suit/armor/vest/bulletproof/solgov/overseer,
+/obj/item/clothing/suit/armor/vest/solgov/overseer,
 /obj/structure/closet/secure_closet/head_of_personnel{
 	anchored = 1;
 	name = "\proper overseer's locker";
@@ -3569,7 +3569,7 @@
 /area/ship/crew/crewtwo)
 "IX" = (
 /obj/item/clothing/head/solgov/captain,
-/obj/item/clothing/suit/armor/vest/bulletproof/solgov/captain,
+/obj/item/clothing/suit/armor/vest/solgov/captain,
 /obj/item/clothing/under/solgov/formal/captain,
 /obj/item/clothing/shoes/laceup,
 /obj/item/clothing/gloves/combat,
@@ -4731,7 +4731,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood,
 /obj/item/cutting_board,
-/obj/item/kitchen/knife,
+/obj/item/melee/knife/kitchen,
 /obj/item/kitchen/rollingpin,
 /obj/machinery/newscaster/directional/west,
 /turf/open/floor/wood/ebony,
@@ -5519,7 +5519,9 @@
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo/office)
 "ZY" = (
-/obj/machinery/vending/medical,
+/obj/machinery/vending/medical{
+	all_items_free = 1
+	},
 /obj/effect/turf_decal/trimline/opaque/solgovblue/filled/line{
 	dir = 4
 	},
