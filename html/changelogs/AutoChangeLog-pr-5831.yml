@@ -1,0 +1,4 @@
+author: generalthrax
+changes:
+  - {bugfix: Added right cell to Mining Facility}
+delete-after: true
