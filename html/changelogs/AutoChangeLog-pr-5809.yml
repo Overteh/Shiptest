@@ -1,0 +1,6 @@
+author: thearbiber, generalthrax
+changes:
+  - {rscadd: 'Added HP Pyre, a .45-70 Lever Action Rifle, for 3000 credits. Can be
+      loaded with stripper clips'}
+  - {balance: Replaced one Illestren on the Elder with an HP Pyre Factory}
+delete-after: true
