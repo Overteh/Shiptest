@@ -264,6 +264,34 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/elite
 	jetpack = /obj/item/tank/jetpack/suit
 
+	//Infiltrator hardsuit
+/obj/item/clothing/head/helmet/space/hardsuit/stealth
+	name = "INF-95 Tactical Hardsuit helmet"
+	desc = "A Prototype hardsuit's helmet created at the tail end of the ICW, Designed for infiltration and maneueverability over protection. Comes with superb field of view and integrated night vision."
+	icon_state = "hardsuit0-stealth"
+	item_state = "stealth_helm"
+	hardsuit_type = "stealth"
+	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
+	resistance_flags = FIRE_PROOF
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75, "wound" = 20)
+	heat_protection = HEAD
+	flash_protect = FLASH_PROTECTION_SENSITIVE
+	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_INVISIBLE
+
+/obj/item/clothing/suit/space/hardsuit/stealth
+	name = "INF-95 Tactical Hardsuit"
+	desc = "A prototype hardsuit created at the tail-end of the ICW, for the Gorlex Marauders. Designed for infiltration and maneuverability over protection. Despite it being well-received, production ended shortly after the war. A surpising amount are kept in good condition, often on collector's racks."
+	icon_state = "hardsuit-stealth"
+	item_state = "stealth_hardsuit"
+	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
+	resistance_flags = FIRE_PROOF
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 30, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75, "wound" = 20)
+	allowed = list(/obj/item/tank/internals)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/stealth
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	slowdown = 0
+	supports_variations = DIGITIGRADE_VARIATION
+
 	//Mining hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/mining
 	name = "frontier hardsuit helmet"
