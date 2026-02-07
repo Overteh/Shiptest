@@ -314,6 +314,7 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list("melee" = 65, "bullet" = 30, "laser" = 25, "energy" = 30, "bomb" = 70, "bio" = 100, "rad" = 85, "fire" = 100, "acid" = 100, "wound" = 30)
 	light_range = 10
+	supports_variations = SNOUTED_VARIATION
 
 	//NS hardsuit
 /obj/item/clothing/suit/space/hardsuit/mining/heavy/ns
