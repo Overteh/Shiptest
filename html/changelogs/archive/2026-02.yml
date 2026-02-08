@@ -23,3 +23,13 @@
 2026-02-06:
   Erikafox:
   - bugfix: no minors
+2026-02-08:
+  thearbiber:
+  - rscadd: infiltrator hardsuit
+  - rscadd: ramzi officer coat resprite, mantles
+  - rscadd: heavy mining suit resprite
+  - rscadd: resprites unkept/pixie, adds rat tail/longhair half
+  thearbiber, generalthrax:
+  - rscadd: Added HP Pyre, a .45-70 Lever Action Rifle, for 3000 credits. Can be loaded
+      with stripper clips
+  - balance: Replaced one Illestren on the Elder with an HP Pyre Factory
