@@ -1,0 +1,4 @@
+author: zimon9
+changes:
+  - {balance: chop chop chop off weapon stocks with a hatchet}
+delete-after: true
