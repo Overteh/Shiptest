@@ -1,0 +1,6 @@
+author: Erikafox
+changes:
+  - {bugfix: 'If you are smoking with a helmet on, you will no longer make smoke clouds.
+      It is advised that anyone wishing to smoke indoors get an EVA helmet on in the
+      future.'}
+delete-after: true
