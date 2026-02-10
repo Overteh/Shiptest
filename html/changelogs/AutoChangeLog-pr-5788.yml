@@ -1,0 +1,7 @@
+author: Erikafox
+changes:
+  - {rscadd: You can now alt-click on some magazines to quickly empty the entire
+      thing}
+  - {bugfix: Certain ammo types should no longer stack to odd amounts}
+  - {bugfix: Ammo boxes now rename themselves on reskin}
+delete-after: true
