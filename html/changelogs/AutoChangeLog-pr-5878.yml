@@ -1,0 +1,5 @@
+author: zimon9
+changes:
+  - {rscadd: Added the number of dogtags required for a particular dogtag case 
+      to be filled}
+delete-after: true
