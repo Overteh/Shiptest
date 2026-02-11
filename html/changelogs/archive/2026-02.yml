@@ -43,3 +43,7 @@
   - bugfix: Ammo boxes now rename themselves on reskin
   zimon9:
   - bugfix: decreased the layer that drills render at
+2026-02-11:
+  zimon9:
+  - balance: made shuttlegibbing nicer
+  - balance: chop chop chop off weapon stocks with a hatchet
