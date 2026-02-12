@@ -1,4 +1,0 @@
-author: thearbiber
-changes:
-  - {rscadd: remaps rustbase}
-delete-after: true

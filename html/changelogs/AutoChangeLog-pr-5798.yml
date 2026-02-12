@@ -1,4 +1,0 @@
-author: thgvr
-changes:
-  - {balance: 'You can no longer revive corpses without a ckey (npc bodies, DNR players)'}
-delete-after: true
