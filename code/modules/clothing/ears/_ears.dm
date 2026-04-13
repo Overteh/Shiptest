@@ -98,6 +98,18 @@
 /obj/item/clothing/ears/headlamp/attack_self(mob/living/user)
 	toggle_helmet_light(user)
 
+/obj/item/clothing/ears/headlamp/attack_hand_secondary(mob/user)
+	. = ..()
+	toggle_helmet_light(user)
+
+/obj/item/clothing/ears/headlamp/attackby_secondary(mob/user)
+	. = ..()
+	toggle_helmet_light(user)
+
+/obj/item/clothing/ears/headlamp/attack_self_secondary(mob/user)
+	. = ..()
+	toggle_helmet_light(user)
+
 /obj/item/clothing/ears/headlamp/proc/toggle_helmet_light(mob/living/user)
 	on = !on
 	if(on)
