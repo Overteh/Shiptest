@@ -47,3 +47,39 @@
   - imageadd: small hypospray vial sprite
   generalthrax:
   - rscadd: Brought back darker Makosso blue
+2026-04-08:
+  Bumtickley00:
+  - balance: Pancrazine now scales healing with the amount of reagents in your system
+      and gets you drunk.
+  - spellcheck: Removed dylovene mention on cargo screen
+  Yule & Addust:
+  - rscadd: Added the Puru-Rangi-class auxiliary response vessel
+  thearbiber:
+  - rscadd: various leyak adjustments
+  - rscdel: wrecker on leyak
+  zimon9:
+  - rscdel: Removed layer adapter layer update proc
+  - code_imp: changed the layer of atmospherics machines so they layer below catwalks
+2026-04-09:
+  DIB-DOG:
+  - rscadd: Added sharplite plus cells to the black market
+  - balance: rebalanced energy cell prices
+  Erikafox:
+  - bugfix: pilot jacket toggletext
+  stiel:
+  - rscadd: Brass knuckles! New melee item in cargo.
+  thearbiber:
+  - bugfix: Whitereds back in cargo
+2026-04-10:
+  SapphicOverload:
+  - refactor: Refactored IPCs again
+2026-04-11:
+  Erikafox:
+  - balance: shields now need to be facing a target to absorb an impact.
+  generalthrax, memesnorfer:
+  - rscadd: Added Scatter Laser, Pulse Slugs, Incendiary Slugs, Ion Shells to cargo
+  - rscadd: Added Dragonsbreath to black market
+  - rscdel: Removed all tech shell recipes
+2026-04-13:
+  generalthrax:
+  - rscdel: Removed mentors
