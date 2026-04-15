@@ -98,17 +98,26 @@
 /obj/item/clothing/ears/headlamp/attack_self(mob/living/user)
 	toggle_helmet_light(user)
 
-/obj/item/clothing/ears/headlamp/attack_hand_secondary(mob/user)
+/obj/item/clothing/ears/headlamp/attack_hand_secondary(mob/user, list/modifiers)
 	. = ..()
-	toggle_helmet_light(user)
+	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
+		return
+	if(toggle_helmet_light(user))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
-/obj/item/clothing/ears/headlamp/attackby_secondary(mob/user)
+/obj/item/clothing/ears/headlamp/attackby_secondary(mob/user, params)
 	. = ..()
-	toggle_helmet_light(user)
+	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
+		return
+	if(toggle_helmet_light(user))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
-/obj/item/clothing/ears/headlamp/attack_self_secondary(mob/user)
+/obj/item/clothing/ears/headlamp/attack_self_secondary(mob/user, modifiers)
 	. = ..()
-	toggle_helmet_light(user)
+	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
+		return
+	if(toggle_helmet_light(user))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/clothing/ears/headlamp/proc/toggle_helmet_light(mob/living/user)
 	on = !on
@@ -117,6 +126,7 @@
 	else
 		turn_off(user)
 	update_appearance()
+	return TRUE //necessary for SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN to run properly
 
 /obj/item/clothing/ears/headlamp/update_icon_state()
 	if(on)
